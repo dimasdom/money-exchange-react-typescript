@@ -70,7 +70,7 @@ let Main:React.FC = (props:any) => {
         <StyledBlockWithGradientBackground height={65}>
             <div className="container">
 <div className="row text-center p-5 ">
-    <div className="col-12 logo pt-4 "><h1 className="text-pop-up-top text-center text-white display-1">Exchange</h1></div>
+    <div className="col-12 logo pt-5 "><h1 className="text-pop-up-top text-center text-white display-1">Exchange</h1></div>
     <div className="col-6 logo slide-in-fwd-right"><h1 className="display-2 text-white ">Powered By React</h1></div>
     <div className="col-6 slide-in-fwd-left "><img className="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/320px-React-icon.svg.png" /></div>
 
