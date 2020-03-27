@@ -15,7 +15,7 @@ export interface ratesType{
     AUD:  number | null
     RON:  number | null
     SEK:  number | null
-    IDR:  number | null
+    EUR:  number | null
     INR:  number | null
     BRL:  number | null
     RUB:  number | null
@@ -53,7 +53,7 @@ let initialState:initialStateType = {
         AUD:   null,
         RON:   null,
         SEK:   null,
-        IDR:   null,
+        EUR:   null,
         INR:   null,
         BRL:   null,
         RUB:   null,
@@ -92,7 +92,7 @@ export let ExchangeReducer = (state:initialStateType = initialState,action:actio
                     AUD:   action.payload.AUD,
                     RON:   action.payload.RON,
                     SEK:   action.payload.SEK,
-                    IDR:   action.payload.IDR,
+                    EUR:   action.payload.EUR,
                     INR:   action.payload.INR,
                     BRL:   action.payload.BRL,
                     RUB:   action.payload.RUB,

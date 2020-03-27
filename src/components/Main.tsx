@@ -10,7 +10,7 @@ import czechrepublic from './svg/czech-republic.svg'
 import australia from './svg/australia.svg'
 import romania from './svg/romania.svg'
 import sweden from './svg/sweden.svg'
-import indonesia from './svg/indonesia.svg'
+import eu from './svg/european-union.svg'
 import india from  './svg/india.svg'
 import brazil from './svg/brazil.svg'
 import russia from './svg/russia.svg'
@@ -95,7 +95,7 @@ let Main:React.FC = (props:any) => {
                             <option value="AUD">AUD</option>
                             <option value="RON">RON</option>
                             <option value="SEK">SEK</option>
-                            <option value="IDR">IDR</option>
+                            <option value="EUR">EUR</option>
                             <option value="INR">INR</option>
                             <option value="BRL">BRL</option>
                             <option value="JPY">JPY</option>
@@ -221,10 +221,10 @@ let Main:React.FC = (props:any) => {
                     <div className="col-sm-6 col-md-4 col-lg-3 m-4 shadow">
                         <div className="row">
                             <div className="col-5 mt-3 mb-3">
-                                <img className="img-fluid" src={indonesia}/>
+                                <img className="img-fluid" src={eu}/>
                             </div>
                             <div className={`col-6  containerpop  mt-4 ${count>1 ? "many" : "display-4" } `  }>
-                                <p  >{((props.rates.IDR * 1/props.rates[currency])*count).toFixed(2)}</p>
+                                <p  >{((props.rates.EUR * 1/props.rates[currency])*count).toFixed(2)}</p>
                             </div>
                         </div>
                     </div>
